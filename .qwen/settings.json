@@ -3,7 +3,8 @@
     "allow": [
       "Bash(python *)",
       "Bash(venv/bin/python *)",
-      "Bash(venv/bin/playwright *)"
+      "Bash(venv/bin/playwright *)",
+      "Bash(git push *)"
     ]
   },
   "$version": 3
