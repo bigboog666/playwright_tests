@@ -1,0 +1,10 @@
+Run Tests
+
+     1 # Run all tests
+     2 venv/bin/python -m pytest tests/ -v --browser webkit
+     3 
+     4 # Run specific test files
+     5 venv/bin/python -m pytest tests/login_test.py -v 
+       --browser webkit
+     6 venv/bin/python -m pytest tests/test_contact_us.py -v 
+       --browser webkit
